@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import { Container } from '@mui/material';
-import teamPic from '../../../Assets/inbg.png';
+import teamPic from '../../../Assets/inbg.avi';
 
 const Hero = () => {
     const theme = useTheme();
@@ -83,7 +83,7 @@ const Hero = () => {
                                 Những người nổi tiếng nói về Ausyn*
                             </Typography>
                     </Box>
-                    <Box
+                    {/* <Box
                         component={LazyLoadImage}
                         height={1}
                         width={1}
@@ -97,7 +97,8 @@ const Hero = () => {
                         sx={{
                             filter: theme.palette.mode === 'dark' ? 'brightness(0.7)' : 'none',
                         }}
-                    />
+                    /> */}
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-L6zV6j85-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <small>*Đây là các audios được sao chép từ giọng các người nổi tiếng được tạo ra bởi Ausyn.</small>
                 </Grid>
             </Grid>
